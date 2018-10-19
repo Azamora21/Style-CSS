@@ -1,6 +1,22 @@
-div{
-    background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);
-}
-div{display:block;margin-top:20px;margin-bottom:20px; margin-right:10px; margin-left:10px}
-img{Float:right;}
-.header {bakgorund-color: #F1F1F1; text-align: center;padding: 20px}
+/*Notes required throughout assignment*/
+.header { background-color: #F1F1F1;text-align: center;padding: 20px;}
+
+/*Color goes from dark blue to white*/
+div{ background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);}
+
+/* The navbar container */
+.topnav { overflow: hidden;background-color: #333;}
+
+/* Navbar links */
+.topnav a {float: left;display: block;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;}
+
+/*when mouse hovers on navbar, link buttons change color; black to white*/
+.topnav a:hover {background-color: #ffffff;color: #000000;}
+
+
+/* Create three equal columns that floats next to each other */
+.column {float: left;width: 33.33%;}
+/* Clear floats after the columns */
+.row:after {content: "";display: table;clear: both;}
+/*If the screen 600px wide or less, then columns will stack ontop of eachother 'responsive layout'*/
+@media screen and (max-width: 600px) {.column { width: 100%;}}
