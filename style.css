@@ -1,9 +1,6 @@
 /*Notes required throughout assignment*/
 .header { background-color: #F1F1F1;text-align: center;padding: 20px;}
-
-/*Color goes from dark blue to white*/
-div{ background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);}
-
+w
 /* The navbar container */
 .topnav { overflow: hidden;background-color: #333;}
 
